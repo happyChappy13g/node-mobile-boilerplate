@@ -1,0 +1,6 @@
+// {suffix: 'xlg', width: 1200, height: 1200},
+// {suffix: 'lg', width: 800, height: 800},
+// {suffix: 'md', width: 500, height: 500},
+// {suffix: 'sm', width: 300, height: 300},
+// {suffix: 'xs', width: 50},
+// {suffix: 'original'},

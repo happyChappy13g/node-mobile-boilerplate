@@ -1,0 +1,14 @@
+__generated__/
+node_modules/
+.idea
+dist
+.yarn-integrity
+.cache/
+yarn-error.log
+
+# OS generated files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
