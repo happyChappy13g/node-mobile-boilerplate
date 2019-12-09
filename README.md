@@ -1,1 +1,1 @@
-# WorldPark API
+# Node Boilerplate, customized for mobile applications
