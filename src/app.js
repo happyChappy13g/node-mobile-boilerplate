@@ -38,9 +38,7 @@ app.use('/api', routes);
 app.use(Celebrate.errors());
 // if error is not an instanceOf APIError, convert it.
 app.use((err, req, res, next) => {
-  console.log('not instance: err: ', err);
   if (!(err instanceof APIError)) {
-    console.log('not***************');
     const apiError = new APIError(err.message, err.status, err.isPublic);
     return next(apiError);
   }
@@ -48,12 +46,10 @@ app.use((err, req, res, next) => {
 });
 // catch 404 and forward to error handler
 app.use((req, res, next) => {
-  console.log('40444444444444444444444');
   return next(new APIError('API not found', 404, true));
 });
 // error handler, send stacktrace only during development
 app.use((err, req, res, next) => {
-  console.log('err', err);
   return res.status(err.status).json({
     message: err.isPublic ? err.message : err.status,
     stack: config.env === 'development' ? err.stack.split('\n') : {},
