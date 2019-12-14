@@ -5,9 +5,11 @@
     "baseUrl": "./",
     "paths": {
       "Utils": ["src/utils/*"],
-      "Models": ["src/data/models/*"],
+      "Models": ["src/models/*"],
       "Config": ["src/config/*"],
-      "Routes": ["src/routes/*"]
+      "Routes": ["src/routes/*"],
+      "Validations": ["src/validations/*"],
+      "Controllers": ["src/controllers/*"]
     }
   },
   "exclude": ["node_modules", "dist"]
