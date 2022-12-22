@@ -19,7 +19,7 @@
     "express": "^4.16.4",
     "express-list-endpoints": "^4.0.0",
     "express-session": "^1.15.6",
-    "jsonwebtoken": "^8.5.0",
+    "jsonwebtoken": "^9.0.0",
     "libphonenumber-js": "^1.7.29",
     "mongoose": "^5.7.5",
     "mongoose-autopopulate": "^0.9.1",
